@@ -17,3 +17,16 @@ const getUser = (id) => {
 
 module.exports = { getUsers, getUser };
 
+
+
+function fetchPromise (id)
+{
+    //console.log("estamos solicitando su acceso ")// fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
+    if (user.id===id)
+      {
+        console.log("usuario encontrado ");
+      } else {
+        console.log("usuario no encontrado ");
+      }
+       
+}
